@@ -1,5 +1,5 @@
-using YourApp.Models;
-using YourApp.Services;
+using AutoEmail.Models;
+using AutoEmail.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

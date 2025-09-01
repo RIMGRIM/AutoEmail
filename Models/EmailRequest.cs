@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace YourApp.Models;
+namespace AutoEmail.Models;
 
 public class EmailRequest
 {

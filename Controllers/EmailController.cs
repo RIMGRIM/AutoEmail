@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using YourApp.Models;
-using YourApp.Services;
+using AutoEmail.Models;
+using AutoEmail.Services;
 
-namespace YourApp.Controllers;
+namespace AutoEmail.Controllers;
 
 public class EmailController : Controller
 {
@@ -25,7 +25,7 @@ public class EmailController : Controller
         if (!ModelState.IsValid) return View(req);
 
         // 用 Razor 模板產出 HTML 內容
-        var html = await _renderer.RenderViewToStringAsync("/Views/Email/Templates/Welcome.cshtml", new {
+        var html = await _renderer.RenderViewToStringAsync("/Views/Email/Templates/Content.cshtml", new {
             UserName = string.IsNullOrWhiteSpace(req.UserName) ? "朋友" : req.UserName,
             Message = req.Message
         });
