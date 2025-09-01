@@ -1,4 +1,4 @@
-namespace YourApp.Services;
+namespace AutoEmail.Services;
 
 public interface IEmailSender
 {

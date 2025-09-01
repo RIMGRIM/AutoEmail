@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
-namespace YourApp.Services;
+namespace AutoEmail.Services;
 
 public class RazorViewRenderer : IRazorViewRenderer
 {

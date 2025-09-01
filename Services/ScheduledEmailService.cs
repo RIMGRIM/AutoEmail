@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Options;
-using YourApp.Models;
+using AutoEmail.Models;
 
-namespace YourApp.Services;
+namespace AutoEmail.Services;
 
 public class ScheduledEmailOptions
 {
@@ -10,7 +10,7 @@ public class ScheduledEmailOptions
     public int DailyMinute { get; set; } = 0;
     public string To { get; set; } = "";
     public string Subject { get; set; } = "每日通知";
-    public string Template { get; set; } = "Welcome";
+    public string Template { get; set; } = "Content";
     public Dictionary<string, string> TemplateModel { get; set; } = new();
 }
 

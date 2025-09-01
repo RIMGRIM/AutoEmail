@@ -2,9 +2,9 @@ using MailKit.Net.Smtp;
 using MailKit.Security;
 using MimeKit;
 using Microsoft.Extensions.Options;
-using YourApp.Models;
+using AutoEmail.Models;
 
-namespace YourApp.Services;
+namespace AutoEmail.Services;
 
 public class SmtpEmailSender : IEmailSender
 {
