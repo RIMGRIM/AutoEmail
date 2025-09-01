@@ -1,0 +1,9 @@
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.csproj.AssemblyReference.cache
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.AssemblyInfoInputs.cache
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.AssemblyInfo.cs
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.csproj.CoreCompileInputs.cache
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.RazorAssemblyInfo.cache
+C:\Users\andydoong\AutoEmail\obj\Debug\net9.0\AutoEmail.RazorAssemblyInfo.cs

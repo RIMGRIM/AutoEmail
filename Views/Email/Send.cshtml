@@ -1,0 +1,37 @@
+@model YourApp.Models.EmailRequest
+@{
+    ViewData["Title"] = "寄信範例";
+}
+<h2>寄信範例</h2>
+
+@if (TempData["ok"] is string ok)
+{
+    <div class="alert alert-success">@ok</div>
+}
+
+<form asp-action="Send" method="post">
+    <div class="mb-3">
+        <label asp-for="To" class="form-label"></label>
+        <input asp-for="To" class="form-control" />
+        <span asp-validation-for="To" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">收件者稱呼（選填）</label>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Subject" class="form-label"></label>
+        <input asp-for="Subject" class="form-control" />
+        <span asp-validation-for="Subject" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Message" class="form-label"></label>
+        <textarea asp-for="Message" class="form-control" rows="6"></textarea>
+        <span asp-validation-for="Message" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">立即寄出</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

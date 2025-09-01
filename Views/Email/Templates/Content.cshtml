@@ -1,0 +1,15 @@
+@model dynamic
+@{
+    Layout = null; // Email 通常不用 Layout
+    string userName = (string)Model.UserName;
+    string message = (string)Model.Message;
+}
+<!doctype html>
+<html>
+  <body style="font-family: Arial, Helvetica, sans-serif; line-height:1.6;">
+    <h2>Hi @userName，</h2>
+    <p>@message</p>
+    <hr />
+    <small>這封信由系統自動發送，請勿直接回覆。</small>
+  </body>
+</html>
